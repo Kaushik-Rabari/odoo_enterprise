@@ -13,3 +13,10 @@
         </field>
     </record>
 </odoo>
+
+<xpath expr="//field[@name='currency_id']" position="after">
+                <field name="invoice_report_template_id" 
+                       widget='many2one' 
+                       options="{'no_create': True}" 
+                       domain="[('report_type', '=', 'qweb-pdf')]"/>
+</xpath>
