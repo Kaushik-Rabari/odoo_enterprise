@@ -1,0 +1,21 @@
+<!-- <?xml version="1.0" encoding="UTF-8"?> -->
+<!-- 
+<odoo>
+    <data>
+        <template id="assets_backend" name="custom session logout" inherit_id="web.assets_backend">
+            <xpath expr="." position="inside">
+                <script src="/session_logouter/static/src/js/custom_logout.js"></script>
+            </xpath>
+        </template>
+    </data>
+</odoo> -->
+
+<!-- <odoo>
+    <data>
+        <template id="assets_backend" name="custom session logout" inherit_id="web.assets_backend">
+            <xpath expr="//script[last()]" position="after">
+                <script type="text/javascript" src="/session_logouter/static/src/js/custom_logout.js"></script>
+            </xpath>
+        </template>
+    </data>
+</odoo> -->
