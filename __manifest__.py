@@ -6,9 +6,6 @@
     'depends': ['base','web'],
     'data': [],
     'assets': {
-        'web.assets_frontend': [
-            'session_logouter/static/src/js/custom_logout.js',
-        ],
         'web.assets_backend': [
             'session_logouter/static/src/js/custom_logout.js',
         ],
